@@ -1,0 +1,38 @@
+/* Estilos para el modo oscuro */
+.modoOscuro {
+  background-color: #333;
+  color: #fff;
+}
+
+.modoOscuro input {
+  background-color: #444;
+  color: #fff;
+}
+
+/* Otros estilos específicos para el modo oscuro según sea necesario */
+.botonDeModos{
+  color:rgb(0, 0, 0)
+}
+
+.botonDeModos:hover{
+background-color: #ffffff90;
+}
+
+/* Acceso.css */
+.formAcceso input {
+  /* Estilos por defecto para los inputs */
+  font-size: 16px; /* Tamaño del texto por defecto */
+  height: 40px; /* Altura del input por defecto */
+  border: 1px solid #ccc;
+  /* ...otros estilos para los inputs... */
+}
+
+.formAcceso input[type="password"] {
+  /* Estilos específicos para el segundo input (tipo password) */
+  font-size: 18px; /* Tamaño del texto para el segundo input */
+  height: 41px; /* Altura del segundo input */
+  width: 184px;
+  border-radius: 4px;
+}
+
+
